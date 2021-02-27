@@ -1,11 +1,10 @@
 import React from 'react';
-
-import './styles.scss';
+import './default.scss';
 
 const Footer = (props) => {
 	return (
-		<footer className="sem-footer">
-			<div className="sem-wrap">@ sem 2021</div>
+		<footer className="footer">
+			<div className="wrap">@ Sem 2021</div>
 		</footer>
 	);
 };

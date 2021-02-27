@@ -1,27 +1,16 @@
 import React from 'react';
+import { Provider } from 'react-redux';
+import store from './redux/createStore';
 import ReactDOM from 'react-dom';
-//import './default.scss';
-import Login from './Auth/Login';
-import Signup from './Auth/Signup';
-import App from './components/App';
-import Dashboard from './components/pages/Dashboard';
-import AboutUs from './components/pages/AboutUs';
-import ContactUs from './components/pages/ContactUs';
-import Shop from './components/pages/Shop';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
 ReactDOM.render(
-	<Router>
-		<Switch>
-			<Route exact path="/" component={App} />
-			<Route path="/login" component={Login} />
-			<Route path="/signup" component={Signup} />
-			<Route path="/dashboard" component={Dashboard} />
-			<Route path="/aboutUs" component={AboutUs} />
-			<Route path="/contactUs" component={ContactUs} />
-			<Route path="/shop" component={Shop} />
-		</Switch>
-	</Router>,
+	<React.StrictMode>
+		<Provider store={store}>
+			<App />
+		</Provider>
+	</React.StrictMode>,
 	document.getElementById('root')
 );
 
