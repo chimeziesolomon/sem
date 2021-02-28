@@ -3,7 +3,7 @@ import Dashboard from './pages/Dashboard';
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import './default.scss';
 // hoc
-
+import Directory from './components/Directory';
 import withAuth from './hoc/withAuth';
 import { useDispatch, useSelector } from 'react-redux';
 import Recovery from './pages/Recovery';
@@ -51,6 +51,7 @@ const App = (props) => {
 		<Router>
 			<div className="app">
 				<Header />
+				{/*<Directory />*/}
 				<Switch>
 					<Hero />
 					<Route exact path="/" render={() => <Homepage />} />
@@ -67,7 +68,7 @@ const App = (props) => {
 						)}
 					/>
 				</Switch>
-				<Footer />
+				{/*<Footer />*/}
 			</div>
 		</Router>
 	);

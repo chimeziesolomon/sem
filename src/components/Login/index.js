@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Link, withRouter } from 'react-router-dom';
-import './default.scss';
-import { signInUser, signInWithGoogle, resetAllAuthForms } from './../../redux/User/user.actions';
+import '../../default.scss';
 import { useDispatch, useSelector } from 'react-redux';
 import AuthWrap from '../AuthWrap';
 import FormInput from './../../components/Forms/FormInput';
 import Button from './../../components/Forms/Button';
+import { signInUser, signInWithGoogle, resetAllAuthForms } from './../../redux/User/user.actions';
 
 const mapState = ({ user }) => ({
 	signInSuccess: user.signInSuccess
@@ -27,7 +27,6 @@ const Login = (props) => {
 		},
 		[ signInSuccess ]
 	);
-
 	const resetForm = () => {
 		setEmail('');
 		setPassword('');
@@ -36,11 +35,9 @@ const Login = (props) => {
 		e.preventDefault();
 		dispatch(signInUser({ email, password }));
 	};
-
 	const handleGoogleSignIn = () => {
 		dispatch(signInWithGoogle());
 	};
-
 	const configAuthWrap = {
 		headline: 'Login'
 	};

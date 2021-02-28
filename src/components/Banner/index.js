@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'reactstrap';
 import bg1 from './../../assets/images/bg-1.png';
 import homeImg from './../../assets/images/sem-date-powder.jpeg';
-
+import '../../default.scss';
 function Banner() {
 	return (
 		<section className="hero-section" id="home" style={{ background: `url(${bg1}) center center ` }}>

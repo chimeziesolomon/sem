@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import './default.scss';
+import '../../default.scss';
 import { Link } from 'react-router-dom';
 import { auth } from './../../firebase/utils';
 import Logo from './../../assets/images/sem-logo.jpeg';
@@ -19,7 +19,6 @@ const Header = (props) => {
 						<img src={Logo} alt="logo" />
 					</Link>
 				</div>
-
 				<div className="callToActions">
 					{currentUser && (
 						<ul>
@@ -31,7 +30,6 @@ const Header = (props) => {
 							</li>
 						</ul>
 					)}
-
 					{!currentUser && (
 						<ul>
 							<li>
@@ -47,7 +45,6 @@ const Header = (props) => {
 		</header>
 	);
 };
-
 Header.defaultProps = {
 	currentUser: null
 };

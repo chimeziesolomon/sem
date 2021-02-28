@@ -211,20 +211,15 @@ p {
 				}
 
 				a {
-					font-size: 1.8rem;
+					font-size: 1.2rem;
 					line-height: 1;
-					color: black;
+					color: gold;
 					text-decoration: none;
 					text-transform: uppercase;
 				}
 			}
 		}
 	}
-}
-
-// home
-.homepage {
-	height: calc(100% - 6.5rem - 5.8rem);
 }
 
 // form wrap
@@ -313,58 +308,6 @@ p {
 			background: darken($value, 4%);
 			border-color: darken($value, 4%);
 		}
-	}
-}
-// directory
-.hero-section {
-	width: 700px;
-	height: 400px;
-	padding-left: 2rem;
-	margin-top: 2rem;
-}
-.img-fluid {
-	width: 200px;
-	right: 700px;
-}
-
-.item {
-	position: relative;
-	width: 19%;
-	margin-left: 1rem;
-
-	top: 400px;
-	height: 200px;
-	float: left;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-
-	&::after {
-		content: "";
-		position: absolute;
-		margin-top: 2rem;
-		left: 0;
-		background-color: rgba(221, 38, 130, 0.3);
-		width: 100px;
-		height: 100px;
-		z-index: 1;
-	}
-	a {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		text-align: center;
-		-webkit-transform: translate(-50%, -50%);
-		-moz-kit-transform: translate(-50%, -50%);
-		transform: translate(-50%, -50%);
-		font-size: 20px;
-		line-height: 1;
-		font-weight: 400;
-		text-transform: uppercase;
-		background: transparent;
-		z-index: 3;
-		padding: 8px 10px;
-		border: 0 solid black;
 	}
 }
 
@@ -586,12 +529,15 @@ p {
 }
 
 /******************
-    4.Hero section
+    // directory
 *******************/
-
 .hero-section {
-	padding-top: 275px;
+	width: 700px;
+	height: 400px;
+	padding-left: 2rem;
+	margin-top: 2rem;
 	overflow: hidden;
+	padding-top: 275px;
 	background: #e6e6ff;
 }
 .hero-wrapper {
@@ -601,7 +547,48 @@ p {
 	top: 140px;
 }
 
-.home-img {
+.item {
+	position: relative;
+	width: 19%;
+	margin-left: 1rem;
+
+	top: 400px;
+	height: 200px;
+	float: left;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	&::after {
+		content: "";
+		position: absolute;
+		margin-top: 2rem;
+		left: 0;
+		background-color: rgba(221, 38, 130, 0.3);
+		width: 100px;
+		height: 100px;
+		z-index: 1;
+	}
+	a {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		text-align: center;
+		-webkit-transform: translate(-50%, -50%);
+		-moz-kit-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		font-size: 20px;
+		line-height: 1;
+		font-weight: 400;
+		text-transform: uppercase;
+		background: transparent;
+		z-index: 3;
+		padding: 8px 10px;
+		border: 0 solid black;
+	}
+}
+
+/*.home-img {
 	position: relative;
 
 	&::before {
@@ -615,22 +602,26 @@ p {
 		top: 90px;
 		right: 15px;
 	}
-}
+}*/
 
 /*--- Hero 2 ---*/
 
 .hero-section-2 {
 	padding: 230px 0px 170px 0px;
+	position: absolute;
+	.item {
+		float: left;
+	}
 }
 
-.registration-form {
+/*.registration-form {
 	.form-control {
 		box-shadow: none;
 		&:focus {
 			border-color: $primary;
 		}
 	}
-}
+}*/
 
 /*--- Hero 5 ---*/
 
@@ -749,9 +740,11 @@ p {
 *******************/
 
 .footer {
+	position: relative;
 	background-color: $footer-bg;
 	color: rgba($white, 0.5);
 	padding-top: 10px;
+	top: 450px;
 	padding-bottom: 40px;
 }
 

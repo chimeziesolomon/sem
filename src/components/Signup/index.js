@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './default.scss';
+import '../../default.scss';
 import { useDispatch, useSelector } from 'react-redux';
 import { resetAllAuthForms, signUpUser } from './../../redux/User/user.actions';
 import { withRouter } from 'react-router-dom';
@@ -19,7 +19,6 @@ const Signup = (props) => {
 	const [ password, setPassword ] = useState('');
 	const [ confirmPassword, setConfirmPassword ] = useState('');
 	const [ errors, setErrors ] = useState([]);
-
 	useEffect(
 		() => {
 			if (signUpSuccess) {
@@ -30,7 +29,6 @@ const Signup = (props) => {
 		},
 		[ signUpSuccess ]
 	);
-
 	useEffect(
 		() => {
 			if (Array.isArray(signUpError) && signUpError.length > 0) {
@@ -39,7 +37,6 @@ const Signup = (props) => {
 		},
 		[ signUpError ]
 	);
-
 	const reset = () => {
 		setDisplayName('');
 		setEmail('');
@@ -47,7 +44,6 @@ const Signup = (props) => {
 		setConfirmPassword('');
 		setErrors([]);
 	};
-
 	const handleFormSubmit = (event) => {
 		event.preventDefault();
 		dispatch(signUpUser)({
@@ -57,7 +53,6 @@ const Signup = (props) => {
 			confirmPassword
 		});
 	};
-
 	const configAuthWrap = {
 		headline: 'Signup'
 	};

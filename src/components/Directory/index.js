@@ -4,7 +4,7 @@ import SemTea from './../../assets/images/sem-banner.jpeg';
 import SemGranular from './../../assets/images/sem-spices.jpeg';
 import SemCatering from './../../assets/images/sem-cereal.jpeg';
 import SemDates from './../../assets/images/sem-date-powder.jpeg';
-import './default.scss';
+import '../../default.scss';
 
 //Import Images
 
@@ -20,7 +20,6 @@ const Directory = (props) => {
 				>
 					<a>Sem Spices</a>
 				</div>
-
 				<div
 					className="item"
 					style={{
@@ -37,7 +36,6 @@ const Directory = (props) => {
 				>
 					<a>Sem Granular</a>
 				</div>
-
 				<div
 					className="item"
 					style={{
