@@ -16,28 +16,22 @@ function Hero() {
 						<div className="hero-wrapper mb-4">
 							<h1 className="hero-title mb-4">
 								We are the leading foodcare solution provider <br /> {' '}
-								<span
-									className="text-primary"
-									style={{
-										color: 'red'
-									}}
-								>
-									Giving you healthier alternatives{' '}
-								</span>
+								<span>Giving you healthier alternatives </span>
 								in Africa
 							</h1>
 
 							<p
 								className=""
 								style={{
-									borderRadius: '20px',
-									width: '440px',
-									fontSize: 'large',
-									textAlign: 'center'
+									borderRadius: '70px',
+									width: '490px',
+									fontSize: '1rem',
+									textAlign: 'center',
+									letterSpacing: '3px'
 								}}
 							>
 								Are you a health enthusiasts, you want to live healthy and make healthier choices? Then
-								sem food and spices is your nunmber 1 plug. Sem Spices are made from a 100% blend of
+								sem food and spices is your number 1 plug. Sem Spices are made from a 100% blend of
 								natural herbs and roots, they are free from monosodium Glutamate MSG, preservatives or
 								any form of artificial additives. Sem spices does not only make your food taste better
 								but also help you prevent, manage or cure certain health conditions
@@ -46,7 +40,7 @@ function Hero() {
 							<div className="mt-4 rounded">
 								<Link
 									to="#"
-									className="btn btn-primary mt-2 mr-2"
+									className="btn  mt-2 mr-2"
 									style={{
 										borderRadius: '20px',
 										boxShadow: 'none',

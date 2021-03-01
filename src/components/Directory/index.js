@@ -10,48 +10,46 @@ import '../../default.scss';
 
 const Directory = (props) => {
 	return (
-		<div className="directory">
-			<div className="wrap">
-				<div
-					className="item"
-					style={{
-						backgroundImage: `url(${SemSpices})`
-					}}
-				>
-					<a>Sem Spices</a>
-				</div>
-				<div
-					className="item"
-					style={{
-						backgroundImage: `url(${SemTea})`
-					}}
-				>
-					<a>Sem Tea</a>
-				</div>
-				<div
-					className="item"
-					style={{
-						backgroundImage: `url(${SemGranular})`
-					}}
-				>
-					<a>Sem Granular</a>
-				</div>
-				<div
-					className="item"
-					style={{
-						backgroundImage: `url(${SemCatering})`
-					}}
-				>
-					<a>Sem Catering</a>
-				</div>
-				<div
-					className="item"
-					style={{
-						backgroundImage: `url(${SemDates})`
-					}}
-				>
-					<a>Sem Dates</a>
-				</div>
+		<div className="mainItem">
+			<div
+				className="item"
+				style={{
+					backgroundImage: `url(${SemSpices})`
+				}}
+			>
+				<a>Sem Spices</a>
+			</div>
+			<div
+				className="item"
+				style={{
+					backgroundImage: `url(${SemTea})`
+				}}
+			>
+				<a>Sem Tea</a>
+			</div>
+			<div
+				className="item"
+				style={{
+					backgroundImage: `url(${SemGranular})`
+				}}
+			>
+				<a>Sem Granular</a>
+			</div>
+			<div
+				className="item"
+				style={{
+					backgroundImage: `url(${SemCatering})`
+				}}
+			>
+				<a>Sem Catering</a>
+			</div>
+			<div
+				className="item"
+				style={{
+					backgroundImage: `url(${SemDates})`
+				}}
+			>
+				<a>Sem Dates</a>
 			</div>
 		</div>
 	);

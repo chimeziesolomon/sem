@@ -51,10 +51,9 @@ const App = (props) => {
 		<Router>
 			<div className="app">
 				<Header />
-				{/*<Directory />*/}
 				<Switch>
-					<Hero />
 					<Route exact path="/" render={() => <Homepage />} />
+
 					<Route path="/signup" render={() => <Signup />} />
 					<Route path="/login" render={() => <Login />} />
 					<Route path="/recovery" render={() => <Recovery />} />
