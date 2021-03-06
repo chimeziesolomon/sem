@@ -11,7 +11,7 @@ import { auth, handleUserProfile } from './firebase/utils';
 import Homepage from './pages/Homepage';
 import Login from './components/Login';
 import Signup from './components/Signup';
-import Footer from './components/Footer';
+
 import { setCurrentUser } from './redux/User/user.actions';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -67,7 +67,6 @@ const App = (props) => {
 						)}
 					/>
 				</Switch>
-				{/*<Footer />*/}
 			</div>
 		</Router>
 	);

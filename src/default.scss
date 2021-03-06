@@ -1,51 +1,9 @@
-/*html {
+*html {
 	font-size: 10px;
-}
-html,
-body {
 	padding: 0;
 	margin: 0;
-	background-color: rebeccapurple;
-	color: gold;
-	height: 700px;
 }
-html,
-body,
-#root,
-.app,
-.fullHeight {
-	height: 100%;
-}
-*,
-::before,
-::after {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-body {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 1.8rem;
-	font-weight: 400;
-	line-height: 1;
-}
-a {
-	text-decoration: none;
-	cursor: pointer;
-}
-a,
-a:hover {
-	transition: all 4s ease-in-out;
-	-webkit-transition: all 4s ease-in-out;
-	-moz-transition: all 4s ease-in-out;
-}
-.main {
-	width: 100%;
-	max-width: 1449px;
-	height: calc(100% - 6.5rem);
-	padding: 0 10px;
-	margin: 0 auto;
-}*/
+
 //here
 
 @import "variable";
@@ -527,7 +485,19 @@ p {
 		}
 	}
 }
+.container {
+	border: 0;
+	padding: 10px;
+	width: 100em;
+}
 
+.hero-wrapper {
+	width: -moz-fit-content;
+	width: fit-content;
+
+	padding: 5px;
+	margin-bottom: 1em;
+}
 /******************
     // directory
 *******************/
@@ -558,29 +528,32 @@ p {
 	display: inline-block;
 	margin: 5px 0;
 	padding: 0;
-
 	border: 1px solid #ccc;
 	border-radius: 30%;
 }
 
 .mainItem {
-	Display: flex;
-	Height: 100vh;
-	Width: 97vw;
-	Align-Items: center;
-	Justify-Content: centre;
+	display: flex;
+	height: 670px;
+	width: 97vw;
+	align-items: center;
+	justify-content: center;
 }
 
 .item {
 	position: relative;
 	width: 19%;
 	margin-left: 1rem;
-
 	top: -190px;
-	height: 200px;
+	height: 40vh;
 	float: left;
 	background-position: center;
 	background-repeat: no-repeat;
+	background-size: cover;
+	background: linear-gradient(rgba(22, 18, 18, 0.5), rgba(0, 0, 0, 0.5));
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
 
 	&::after {
@@ -844,16 +817,8 @@ p {
 	}
 }
 
-@media (max-width: 767.98px) {
-	.hero-title {
-		font-size: 32px;
-	}
+@media (max-width: 768px) {
 }
 
 @media (max-width: 575.98px) {
-	.testi-carousel {
-		.owl-nav {
-			display: none;
-		}
-	}
 }

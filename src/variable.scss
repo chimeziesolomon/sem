@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Anton');
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
 $primary: #c9d42f;
 $success: #34d1bf;
 $info: #57b8ff;
@@ -20,6 +22,7 @@ $gray-600: #6c757d;
 $gray-700: #495057;
 $gray-800: #343a40;
 $gray-900: #212529;
+$body-color: ("background": rgb(231, 12, 231), "color": rgb(151, 125, 6));
 
 $colors: (
 	"primary": $primary,
