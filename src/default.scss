@@ -498,6 +498,17 @@ p {
 	padding: 5px;
 	margin-bottom: 1em;
 }
+.hero-section-top {
+	width: 400px;
+	height: 250px;
+	border-radius: 50%;
+	background: #e6e6ff;
+}
+#home {
+	float: right;
+	margin-bottom: 12rem;
+	margin-top: -12rem;
+}
 /******************
     // directory
 *******************/
@@ -510,6 +521,20 @@ p {
 	padding-top: 275px;
 	background: #e6e6ff;
 }
+.hero-wrapper-top {
+	display: flex;
+	flex-direction: column;
+	width: -moz-fit-content;
+	width: fit-content;
+
+	padding: 5px;
+	margin-bottom: 1em;
+
+	a {
+		max-width: 200px;
+	}
+}
+
 .hero-wrapper {
 	position: absolute;
 	float: left !important;
@@ -534,10 +559,12 @@ p {
 
 .mainItem {
 	display: flex;
-	height: 670px;
+	//height: 670px;
 	width: 97vw;
 	align-items: center;
 	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .item {
@@ -556,7 +583,7 @@ p {
 	-o-background-size: cover;
 	background-size: cover;
 
-	&::after {
+	/*&::after {
 		content: "";
 		position: absolute;
 		margin-top: 2rem;
@@ -565,7 +592,7 @@ p {
 		width: 100px;
 		height: 100px;
 		z-index: 1;
-	}
+	}*/
 	a {
 		position: absolute;
 		top: 50%;
@@ -751,7 +778,7 @@ p {
 	color: $white;
 }
 
-.footer-list-menu {
+/*.footer-list-menu {
 	list-style-type: none;
 	li {
 		a {
@@ -765,7 +792,7 @@ p {
 			}
 		}
 	}
-}
+}*/
 
 /******************
     9.Responsive
