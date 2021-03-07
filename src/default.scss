@@ -506,6 +506,10 @@ p {
 
   padding: 5px;
   margin-bottom: 1em;
+
+  a {
+    max-width: 200px;
+  }
 }
 
 .hero-title {
@@ -517,13 +521,12 @@ p {
 }
 
 .hero-section-top {
-  width: 700px;
-  height: 400px;
-  padding-left: 2rem;
-  overflow: hidden;
-  padding-top: 275px;
+  width: 400px;
+  height: 250px;
+  border-radius: 50%;
   background: #e6e6ff;
 }
+
 /******************
     // directory
 *******************/
@@ -559,7 +562,6 @@ p {
 }
 
 .mainItem {
-  visibility: hidden;
   display: flex;
   flex-wrap: wrap;
   // height: 670px;
@@ -585,16 +587,16 @@ p {
   -o-background-size: cover;
   background-size: cover;
 
-  &::after {
-    content: '';
-    position: absolute;
-    margin-top: 2rem;
-    left: 0;
-    background-color: rgba(221, 38, 130, 0.3);
-    width: 100px;
-    height: 100px;
-    z-index: 1;
-  }
+  // &::after {
+  //   content: '';
+  //   position: absolute;
+  //   margin-top: 2rem;
+  //   left: 0;
+  //   background-color: rgba(221, 38, 130, 0.3);
+  //   width: 100px;
+  //   height: 100px;
+  //   z-index: 1;
+  // }
   a {
     position: absolute;
     top: 50%;
