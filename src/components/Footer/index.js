@@ -3,32 +3,11 @@ import '../../default.scss';
 
 const Footer = (props) => {
 	return (
-		<footer
-			className="footer"
-			style={{
-				fontSize: '1rem',
-				textAlign: 'center',
-				letterSpacing: '3px',
-				marginTop: '-280px',
-				backgroundColor: 'transparent',
-				listStyleType: 'none'
-			}}
-		>
-			<section className="container space-between support">
-				<div
-					className="text-primary"
-					style={{
-						listStyleType: 'none',
-						float: 'left'
-					}}
-				>
+		<footer className="footer">
+			<section className=" text-primary container space-between footer-list-title">
+				<div>
 					Customer Support
-					<ul
-						className=""
-						style={{
-							listStyleType: 'none'
-						}}
-					>
+					<ul className="footer-list-menu">
 						<li>
 							<a href="#">Contact Us</a>
 						</li>
@@ -44,19 +23,9 @@ const Footer = (props) => {
 					</ul>
 				</div>
 				<div>
-					<div
-						className="text-primary"
-						style={{
-							left: '200px'
-						}}
-					>
+					<div className=" text-primary footer-list-title">
 						Company Info
-						<ul
-							className=""
-							style={{
-								listStyle: 'none'
-							}}
-						>
+						<ul className="footer-list-menu">
 							<li>
 								<a href="#">About Us</a>
 							</li>
@@ -66,40 +35,14 @@ const Footer = (props) => {
 						</ul>
 					</div>
 					<div>
-						<div
-							className="text-primary"
-							style={{
-								float: 'right',
-								marginTop: '-5.2rem'
-							}}
-						>
+						<div className="text-primary footer-list-title">
 							Privacy &amp; Terms
-							<ul
-								className=""
-								style={{
-									listStyle: 'none'
-								}}
-							>
+							<ul className="footer-list-menu">
 								<li>
-									<a
-										href="#"
-										style={{
-											listStyle: 'none',
-											marginBottom: '10px'
-										}}
-									>
-										Privacy &amp; Security
-									</a>
+									<a href="#">Privacy &amp; Security</a>
 								</li>
 								<li>
-									<a
-										href="#"
-										style={{
-											listStyle: 'none'
-										}}
-									>
-										Statement
-									</a>
+									<a href="#">Statement</a>
 								</li>
 								<li>
 									<a href="#">Terms &amp; Conditions</a>
@@ -119,13 +62,7 @@ const Footer = (props) => {
 				</div>
 
 				<section>
-					<div
-						className="flex flex-column align-center"
-						className=""
-						style={{
-							listStyle: 'none'
-						}}
-					/>
+					<div className="flex flex-column align-center" />
 				</section>
 
 				<div className="text-primary">&copy;Sem 2021</div>

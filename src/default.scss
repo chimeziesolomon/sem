@@ -741,8 +741,9 @@ p {
 	background-color: $footer-bg;
 	color: rgba($white, 0.5);
 	padding-top: 10px;
-	top: 450px;
+	top: 20px;
 	padding-bottom: 40px;
+	background: transparent;
 }
 
 .footer-list-title {
@@ -751,6 +752,7 @@ p {
 }
 
 .footer-list-menu {
+	list-style-type: none;
 	li {
 		a {
 			display: inline-block;
