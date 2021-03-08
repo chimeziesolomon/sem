@@ -8,10 +8,12 @@ import About from '../About';
 const Homepage = (props) => {
 	return (
 		<section className="homepage">
-			<Hero />
-			<Directory />
-			<Testimonial />
-			<About />
+			<div>
+				<Hero />
+				<Directory />
+				<Testimonial />
+				<About />
+			</div>
 		</section>
 	);
 };

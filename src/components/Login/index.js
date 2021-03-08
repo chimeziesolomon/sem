@@ -12,7 +12,8 @@ const mapState = ({ user }) => ({
 });
 
 const Login = (props) => {
-	const { signInSuccess } = useSelector(mapState);
+	{
+		/*const { signInSuccess } = useSelector(mapState);
 	const dispatch = useDispatch();
 	const [ email, setEmail ] = useState('');
 	const [ password, setPassword ] = useState('');
@@ -71,7 +72,8 @@ const Login = (props) => {
 				</form>
 			</div>
 		</AuthWrap>
-	);
+	);*/
+	}
 };
 
 export default withRouter(Login);

@@ -12,7 +12,8 @@ const mapState = ({ user }) => ({
 	signUpError: user.signUpError
 });
 const Signup = (props) => {
-	const { signUpSuccess, signUpError } = useSelector(mapState);
+	{
+		/*const { signUpSuccess, signUpError } = useSelector(mapState);
 	const dispatch = useDispatch();
 	const [ displayName, setDisplayName ] = useState('');
 	const [ email, setEmail ] = useState('');
@@ -99,7 +100,8 @@ const Signup = (props) => {
 				</form>
 			</div>
 		</AuthWrap>
-	);
+					);*/
+	}
 };
 
 export default withRouter(Signup);

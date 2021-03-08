@@ -2,12 +2,12 @@ import React from 'react';
 import '../../../default.scss';
 
 const FormInput = ({ handleChange, label, ...otherProps }) => {
-	return (
-		<div className="formRow">
+	return {
+		/*<div className="formRow">
 			{label && <label>{label}</label>}
 			<input className="formInput" onChange={handleChange} {...otherProps} />
-		</div>
-	);
+	</div>*/
+	};
 };
 
 export default FormInput;

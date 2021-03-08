@@ -78,34 +78,13 @@ const Directory = (props) => {
 					<Col className="justify-content-center">
 						<Col lg={6}>
 							<div className="hero-wrapper mb-4">
-								<h1
-									className="hero-title mb-4"
-									style={{
-										borderRadius: '70px',
-										width: '490px',
-										fontSize: '1.3rem',
-										textAlign: 'center',
-										letterSpacing: '3px'
-									}}
-								>
+								<h1 className="hero-title mb-4">
 									Get this offer of a <br /> <span>special discount of 20% </span>
 									it lasts only today
 								</h1>
 
-								<div className="mt-4 rounded">
-									<Link
-										to="#"
-										className="btn  mt-2 mr-2"
-										style={{
-											borderRadius: '20px',
-											boxShadow: 'none',
-											width: '200px',
-											fontSize: 'small',
-											textAlign: 'center',
-											float: 'left',
-											marginLeft: '8rem'
-										}}
-									>
+								<div className="mt-4">
+									<Link to="#" className="btn btn-rounded">
 										Shop Now
 									</Link>
 								</div>

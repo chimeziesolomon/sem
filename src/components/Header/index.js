@@ -4,6 +4,7 @@ import '../../default.scss';
 import { Link } from 'react-router-dom';
 import { auth } from './../../firebase/utils';
 import Logo from './../../assets/images/sem-logo.jpeg';
+import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 
 const mapState = ({ user }) => ({
 	currentUser: user.currentUser
@@ -37,6 +38,11 @@ const Header = (props) => {
 							</li>
 							<li>
 								<Link to="/login">Login</Link>
+							</li>
+							<li>
+								<Link to="/shoppingCart">
+									<ShoppingCartIcon>Shop</ShoppingCartIcon>
+								</Link>
 							</li>
 						</ul>
 					)}

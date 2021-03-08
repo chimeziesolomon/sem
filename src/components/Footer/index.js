@@ -50,6 +50,22 @@ const Footer = (props) => {
 							</ul>
 						</div>
 					</div>
+					<div className="">
+						<ul className="">
+							<li>
+								<a href="#">facebook</a>
+							</li>
+							<li>
+								<a href="#">twitter</a>
+							</li>
+							<li>
+								<a href="#">linkedIn</a>
+							</li>
+							<li>
+								<a href="#">instagram</a>
+							</li>
+						</ul>
+					</div>
 
 					<div>
 						<div>Email Updates</div>
@@ -61,9 +77,7 @@ const Footer = (props) => {
 					</div>
 				</div>
 
-				<section>
-					<div className="flex flex-column align-center" />
-				</section>
+				<section />
 
 				<div className="text-primary">&copy;Sem 2021</div>
 			</section>
