@@ -1,44 +1,33 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'reactstrap';
-import bg1 from './../../assets/images/bg-1.png';
-import homeImg from './../../assets/images/sem-date-powder.jpeg';
+import bg1 from './../../assets/images/sem-spices.jpeg';
 
 function Banner() {
 	return (
-		<section className="hero-section" id="home" style={{ background: `url(${bg1}) center center ` }}>
-			<Container>
-				<Row className="justify-content-center">
-					<Col lg={6}>
-						<div className="hero-wrapper mb-4">
-							<h1 className="hero-title mb-4">
-								We are the leading healthcare solution provider {' '}
-								<span className="text-primary">in Africa</span>
-							</h1>
-
-							<p>Get Affordable quality health care. Speak to a doctor.</p>
-
-							<div className="mt-4 rounded">
-								<Link
-									to="#"
-									className="btn btn-primary mt-2 mr-2"
-									style={{ borderRadius: '20px', boxShadow: 'none' }}
-								>
-									Getting Started
-								</Link>
-							</div>
-						</div>
-					</Col>
-
-					<Col lg={6} sm={8}>
-						<div className="home-img mt-5 mt-lg-0">
-							<img src={homeImg} alt="" className="img-fluid mx-auto d-block" />
-						</div>
-					</Col>
-				</Row>
-			</Container>
-		</section>
-	);
+		<div className="hero-banner">
+      <div
+        className="hero-banner-top"
+        style={{
+          background: `url(${bg1}) no-repeat`,
+        }}>
+        </div>
+		<div className="hero-wrapperbanner-top mb-4">
+        <h1 className="hero-title mb-4">
+          We are giving out this great product <br />{' '}
+          <span>20% off </span>
+          for your great irresistible dish
+        </h1>
+        <div className="">
+          <a
+            to="#"
+            className=""
+            >
+            Shop Now
+          </a>
+        </div>
+      </div>
+    </div>
+  );
 }
-
 export default Banner;

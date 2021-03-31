@@ -2,6 +2,7 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { auth } from './../../firebase/utils';
+import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import Logo from './../../assets/images/sem-logo.jpeg';
 import '../../default.scss';
 
@@ -17,6 +18,7 @@ const Header = (props) => {
         <div className="logo">
           <Link to="/">
             <img src={Logo} alt="logo" />
+            
           </Link>
         </div>
 
@@ -39,6 +41,11 @@ const Header = (props) => {
               </li>
               <li>
                 <Link to="/login">Login</Link>
+              </li>
+              <li>
+                <Link to="/shoppingCart">
+                 <ShoppingCartIcon /> 
+                  </Link>
               </li>
             </ul>
           )}

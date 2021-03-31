@@ -1,20 +1,20 @@
 import React, { useEffect } from 'react';
-import Dashboard from './pages/Dashboard';
+import { setCurrentUser } from './redux/User/user.actions';
+import withAuth from './hoc/withAuth';
+import { useDispatch, useSelector } from 'react-redux';
+import { auth, handleUserProfile } from './firebase/utils';
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import './default.scss';
 // hoc
 
-import withAuth from './hoc/withAuth';
-import { useDispatch, useSelector } from 'react-redux';
+
 import Recovery from './pages/Recovery';
-import { auth, handleUserProfile } from './firebase/utils';
 import Homepage from './pages/Homepage';
 import Login from './components/Login';
 import Signup from './components/Signup';
 import Footer from './components/Footer';
-import { setCurrentUser } from './redux/User/user.actions';
+import Dashboard from './pages/Dashboard';
 import Header from './components/Header';
-import Hero from './components/Hero';
 
 //const initialState = {
 //	currentUser: null
@@ -50,9 +50,10 @@ const App = (props) => {
 	return (
 		<Router>
 			<div className="app">
-				<Header />
+			<Header />
+				<div className="main">
+				
 				<Switch>
-					<Hero />
 					<Route exact path="/" render={() => <Homepage />} />
 					<Route path="/signup" render={() => <Signup />} />
 					<Route path="/login" render={() => <Login />} />
@@ -67,7 +68,8 @@ const App = (props) => {
 						)}
 					/>
 				</Switch>
-				<Footer />
+				{/*<Footer />*/}
+				</div>
 			</div>
 		</Router>
 	);
