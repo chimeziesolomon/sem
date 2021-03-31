@@ -1,13 +1,12 @@
+
 @import "variable";
 @import 'bootstrap/dist/css/bootstrap.min.css';
 @import '@fortawesome/fontawesome-free/css/all.min.css';
 @import 'bootstrap-css-only/css/bootstrap.min.css';
 @import 'mdbreact/dist/css/mdb.css';
 html {
+*html {
 	font-size: 10px;
-}
-html,
-body {
 	padding: 0;
 	margin: 0;
 }
@@ -82,9 +81,9 @@ a, a:hover {
 				list-style-type: none;
 				margin: 2rem;
 				a {
-					font-size: 1.8rem;
+					font-size: 1.2rem;
 					line-height: 1;
-					color: #ff8d1e;
+					color: gold;
 					text-decoration: none;
 					text-transform: uppercase;
 				}
@@ -196,6 +195,7 @@ a, a:hover {
 	}
 	
 }
+
 .hero-banner-top {
 	width: 500px ;
 	height: 200px;
@@ -218,6 +218,186 @@ a, a:hover {
 		background: black;
 		padding: 8px 10px;
 		border: 1px solid white;
+.container {
+	border: 0;
+	padding: 10px;
+	width: 100em;
+}
+
+.hero-wrapper {
+	width: -moz-fit-content;
+	width: fit-content;
+
+	padding: 5px;
+	margin-bottom: 1em;
+}
+.hero-section-top {
+	width: 400px;
+	height: 250px;
+	border-radius: 50%;
+	background: #e6e6ff;
+}
+#home {
+	float: right;
+	margin-bottom: 12rem;
+	margin-top: -12rem;
+}
+/******************
+    // directory
+*******************/
+.hero-section {
+	width: 700px;
+	height: 400px;
+	padding-left: 2rem;
+	margin-top: 2rem;
+	overflow: hidden;
+	padding-top: 275px;
+	background: #e6e6ff;
+}
+.hero-wrapper-top {
+	display: flex;
+	flex-direction: column;
+	width: -moz-fit-content;
+	width: fit-content;
+
+	padding: 5px;
+	margin-bottom: 1em;
+
+	a {
+		max-width: 200px;
+	}
+}
+
+.hero-wrapper {
+	position: absolute;
+	float: left !important;
+	left: 40px;
+	top: 140px;
+
+	h1 {
+		text-align: center;
+		font-size: 3.3rem;
+		width: '490px';
+		letter-spacing: '3px';
+	}
+	span {
+		color: #ccc;
+	}
+}
+
+.item {
+	display: inline-block;
+	margin: 5px 0;
+	padding: 0;
+	border: 1px solid #ccc;
+	border-radius: 30%;
+}
+
+.mainItem {
+	display: flex;
+	//height: 670px;
+	width: 97vw;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.item {
+	position: relative;
+	width: 19%;
+	margin-left: 1rem;
+	top: -190px;
+	height: 40vh;
+	float: left;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background: linear-gradient(rgba(22, 18, 18, 0.5), rgba(0, 0, 0, 0.5));
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	&::after {
+		content: "";
+		position: absolute;
+		margin-top: 2rem;
+		left: 0;
+		background-color: rgba(221, 38, 130, 0.3);
+		width: 100px;
+		height: 100px;
+		z-index: 1;
+	}
+	a {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		text-align: center;
+		-webkit-transform: translate(-50%, -50%);
+		-moz-kit-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		font-size: 20px;
+		line-height: 1;
+		font-weight: 400;
+		text-transform: uppercase;
+		background: transparent;
+		z-index: 3;
+		padding: 8px 10px;
+		border: 0 solid black;
+	}
+}
+
+/*.home-img {
+	position: relative;
+
+	&::before {
+		content: "";
+		position: absolute;
+		width: 360px;
+		height: 330px;
+		background-color: rgba($primary, 1);
+		border-radius: 30% 70% 59% 41% / 30% 38% 62% 70%;
+		z-index: -1;
+		top: 90px;
+		right: 15px;
+	}
+}*/
+
+/*--- Hero 2 ---*/
+
+.hero-section-2 {
+	padding: 230px 0px 170px 0px;
+	position: absolute;
+	.item {
+		float: left;
+	}
+}
+
+.registration-form {
+	.form-control {
+		box-shadow: none;
+		&:focus {
+			border-color: $primary;
+		}
+	}
+}
+
+/*--- Hero 5 ---*/
+
+.hero-section-5 {
+	padding: 300px 0px 220px 0px;
+}
+
+.play-icon-circle {
+	height: 50px;
+	width: 50px;
+	background-color: $success;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 5px;
 }
 
 }
@@ -314,7 +494,7 @@ box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 transition: all 250ms ease-in-out 0s;
 
 }
-/*@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
 	.hero-section-top {
 		width: 200px;
 	}
@@ -337,7 +517,6 @@ transition: all 250ms ease-in-out 0s;
 	.carousel-caption {
 		margin-right: -40rem;
 	}
-  }
   @media screen and (min-width: 425px) {
 	  .hero-title {
 		  font-size: 20px;
@@ -364,5 +543,4 @@ transition: all 250ms ease-in-out 0s;
 		}
 		
 	}
-  }
-  */
+}
