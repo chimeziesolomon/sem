@@ -6,25 +6,14 @@ import { auth, handleUserProfile } from './firebase/utils';
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import './default.scss';
 // hoc
-<<<<<<< HEAD
 
 
-=======
-import Directory from './components/Directory';
-import withAuth from './hoc/withAuth';
-import { useDispatch, useSelector } from 'react-redux';
->>>>>>> a1dfeaef3f61421afbdc11427da176271143dd9b
 import Recovery from './pages/Recovery';
 import Homepage from './pages/Homepage';
 import Login from './components/Login';
 import Signup from './components/Signup';
-<<<<<<< HEAD
 import Footer from './components/Footer';
 import Dashboard from './pages/Dashboard';
-=======
-
-import { setCurrentUser } from './redux/User/user.actions';
->>>>>>> a1dfeaef3f61421afbdc11427da176271143dd9b
 import Header from './components/Header';
 
 //const initialState = {
@@ -80,11 +69,8 @@ const App = (props) => {
 						)}
 					/>
 				</Switch>
-<<<<<<< HEAD
 				{/*<Footer />*/}
 				</div>
-=======
->>>>>>> a1dfeaef3f61421afbdc11427da176271143dd9b
 			</div>
 		</Router>
 	);
