@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'reactstrap';
 import bg1 from './../../assets/images/sem-spices.jpeg';
+import '../../default.scss';
 
 function Banner() {
 	return (

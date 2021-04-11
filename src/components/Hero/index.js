@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 //import { Container, Row, Col } from 'reactstrap';
 import bg1 from './../../assets/images/sem-spices.jpeg';
+import '../../default.scss';
 
 function Hero() {
 	return (
@@ -15,7 +16,7 @@ function Hero() {
         <div className="">
           <a
             to="#"
-            className=""
+            className="btn"
             >
             Getting Started
           </a>

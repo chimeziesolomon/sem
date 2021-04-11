@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import SemSpices from './../../assets/images/sem-spices.jpeg';
-import SemTea from './../../assets/images/sem-banner.jpeg';
-import SemGranular from './../../assets/images/sem-spices.jpeg';
+import SemTea from './../../assets/images/sem-calming-tea.jpeg';
+import SemGranular from './../../assets/images/sem-soursopleaf-spice.jpeg';
 import SemCatering from './../../assets/images/sem-cereal.jpeg';
 import SemNaturalSweetner from './../../assets/images/sem-date-powder.jpeg';
 import '../../default.scss';
@@ -17,35 +18,45 @@ const Directory = (props) => {
         style={{
           backgroundImage: `url(${SemSpices})`,
         }}>
-        <a>Sem Spices</a>
+       <Link to="/search/spices">
+            Sem Spices
+          </Link>
       </div>
       <div
         className="item"
         style={{
           backgroundImage: `url(${SemTea})`,
         }}>
-        <a>Sem Tea</a>
+        <Link to="/search/tea">
+            Sem Tea
+          </Link>
       </div>
       <div
         className="item"
         style={{
           backgroundImage: `url(${SemGranular})`,
         }}>
-        <a>Sem Granular</a>
+        <Link to="/search/granular">
+            Sem Granular
+          </Link>
       </div>
       <div
         className="item"
         style={{
           backgroundImage: `url(${SemCatering})`,
         }}>
-        <a>Sem MSG-free Catering</a>
+        <Link to="/search/catering">
+            Sem Catering
+          </Link>
       </div>
       <div
         className="item"
         style={{
           backgroundImage: `url(${SemNaturalSweetner})`,
         }}>
-        <a>Sem Natural Sweetner</a>
+       <Link to="/search/naturalsweetner">
+            Sem Natural Sweetner
+          </Link>
       </div>
     </div>
     </div>
