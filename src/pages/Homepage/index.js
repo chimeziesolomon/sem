@@ -1,20 +1,40 @@
-import React from 'react';
-import Directory from '../../components/Directory';
-import Hero from '../../components/Hero';
-import Banner from '../../components/Banner';
-import '../../default.scss';
-import  Carousel  from '../../components/Carousel';
-import Footer from '../../components/Footer'
+import { useState, useEffect } from 'react'
+import { Navigation } from './components/navigation'
+import { Header } from './components/header'
+import { Features } from './components/features'
+import { About } from './components/about'
+import { Services } from './components/services'
+import { Gallery } from './components/gallery'
+import { Testimonials } from './components/testimonials'
+import { Team } from './components/Team'
+import { Contact } from './components/contact'
+import JsonData from './data/data.json'
+import SmoothScroll from 'smooth-scroll'
 
-const Homepage = (props) => {
+export const scroll = new SmoothScroll('a[href*="#"]', {
+  speed: 1000,
+  speedAsDuration: true,
+})
+
+const Homepage = () => {
+  const [landingPageData, setLandingPageData] = useState({})
+  useEffect(() => {
+    setLandingPageData(JsonData)
+  }, [])
+
   return (
-    <section className="homepage">
-      <Hero />
-      <Directory />
-      <Banner />
-      <Carousel />
-      <Footer />
-    </section>
-  );
-};
+    <div>
+      <Navigation />
+      <Header data={landingPageData.Header} />
+      <Features data={landingPageData.Features} />
+      <About data={landingPageData.About} />
+      <Services data={landingPageData.Services} />
+      <Gallery />
+      <Testimonials data={landingPageData.Testimonials} />
+      <Team data={landingPageData.Team} />
+      <Contact data={landingPageData.Contact} />
+    </div>
+  )
+}
+
 export default Homepage;
