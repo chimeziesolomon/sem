@@ -10,13 +10,13 @@ export const Gallery = (props) => {
             </p>
           </div>
           <div className='row'>
-            <div className='portfolio-items'>
+            <div className='portfolio-items row'>
               <div className='col-sm-6 col-md-4 col-lg-4'>
                 <div className='portfolio-item'>
                   <div className='hover-bg'>
                     {' '}
                     <a
-                      href='assets/images/sem-mix-stew.jpeg'
+                      href='assets/images/sem-spice-mix-stew.jpeg'
                       title='Project Title'
                       data-lightbox-gallery='gallery1'
                     >
@@ -37,7 +37,7 @@ export const Gallery = (props) => {
                   <div className='hover-bg'>
                     {' '}
                     <a
-                      href='assets/images/sem-garlic-pepper.jpeg'
+                      href='./assets/images/sem-spice-garlic-pepper.jpeg'
                       title='Project Title'
                       data-lightbox-gallery='gallery1'
                     >
