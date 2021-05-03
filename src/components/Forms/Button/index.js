@@ -1,12 +1,12 @@
 import React from 'react';
-import './default.scss';
+import '../../../default.scss';
 
 const Button = ({ children, ...otherProps }) => {
-	return (
-		<button className="btn" {...otherProps}>
-			{children}
-		</button>
-	);
+  return (
+    <button className="btn" {...otherProps}>
+      {children}
+    </button>
+  );
 };
 
 export default Button;
