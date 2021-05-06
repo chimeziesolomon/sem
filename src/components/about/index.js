@@ -5,7 +5,7 @@ export const About = (props) => {
         <div className='row'>
           <div className='col-xs-12 col-md-6'>
             {' '}
-            <img src='assets/images/sem-spices.jpeg' className='img-responsive' alt='' />{' '}
+            <img src='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620079192/sem-spices_ahcyti.jpg' className='img-responsive' alt='' />{' '}
           </div>
           <div className='col-xs-12 col-md-6'>
             <div className='about-text'>

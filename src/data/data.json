@@ -54,52 +54,52 @@
 
     ],
     "Testimonials": [{
-            "img": "assets/images/sem-foreignchef.jpeg",
+            "img": "https://res.cloudinary.com/chimeziesolomon/image/upload/v1617569998/chefimage_h3s27t.jpg",
             "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
             "name": "Ella Doe"
         },
         {
-            "img": "assets/images/sem-contichefchef.jpeg",
+            "img": "https://res.cloudinary.com/chimeziesolomon/image/upload/v1617569998/chefimage_h3s27t.jpg",
             "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
             "name": "Johnathan Mills"
         },
         {
-            "img": "assets/images/sem-foreignchef.jpeg",
+            "img": "https://res.cloudinary.com/chimeziesolomon/image/upload/v1617569998/chefimage_h3s27t.jpg",
             "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
             "name": "John Edollo"
         },
         {
-            "img": "assets/images/sem-contichefchef.jpeg",
+            "img": "https://res.cloudinary.com/chimeziesolomon/image/upload/v1617569998/chefimage_h3s27t.jpg",
             "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
             "name": "Steven Mandy"
         },
         {
-            "img": "assets/images/sem-foreignchef.jpeg",
+            "img": "https://res.cloudinary.com/chimeziesolomon/image/upload/v1617569998/chefimage_h3s27t.jpg",
             "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
             "name": "Fred Wilson"
         },
         {
-            "img": "assets/images/sem-contichef.jpeg",
+            "img": "https://res.cloudinary.com/chimeziesolomon/image/upload/v1617569998/chefimage_h3s27t.jpg",
             "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
             "name": "Stan Fred"
         }
     ],
     "Team": [{
-            "img": "assets/images/sem-chef.jpeg",
+            "img": "https://res.cloudinary.com/chimeziesolomon/image/upload/v1617569998/chefimage_h3s27t.jpg",
             "name": "John Doe",
             "job": "Director"
         },
         {
-            "img": "assets/images/sem-chef.jpeg",
+            "img": "https://res.cloudinary.com/chimeziesolomon/image/upload/v1617569998/chefimage_h3s27t.jpg",
             "name": "Mike Stewart",
             "job": "Tester"
         }, {
-            "img": "assets/images/sem-chef.jpeg",
+            "img": "https://res.cloudinary.com/chimeziesolomon/image/upload/v1617569998/chefimage_h3s27t.jpg",
             "name": "Jane Philip",
             "job": "Executive Chef"
         },
         {
-            "img": "assets/images/sem-chef.jpeg",
+            "img": "https://res.cloudinary.com/chimeziesolomon/image/upload/v1617569998/chefimage_h3s27t.jpg",
             "name": "Karen Mica",
             "job": "Accountant"
         }
@@ -113,23 +113,23 @@
         "youtube": "youtube.com"
     },
     "Features": [{
-            "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
+            "icon": "fa fa-truck",
+            "title": "Home Delivery",
             "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
         },
         {
             "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
+            "title": "Consultations",
             "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
         },
         {
-            "icon": "fa fa-group",
-            "title": "Lorem ipsum",
+            "icon": "fa fa-coffee",
+            "title": "Outdoor Catering",
             "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
         },
         {
-            "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
+            "icon": "fa fa-users",
+            "title": "Seminars",
             "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
         }
     ]
