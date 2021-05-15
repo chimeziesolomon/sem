@@ -20,11 +20,11 @@ h2 {
 h3 {
 	font-size: 20px;
 	font-weight: 600;
-	color: rgb(54, 59, 7);
+	color: rgb(157, 173, 12);
 }
 h4 {
 	font-size: 18px;
-	color: rgb(59, 56, 6);
+	color: rgb(196, 187, 24);
 	font-weight: 600;
 }
 h5 {
@@ -78,13 +78,13 @@ hr {
 	font-family: 'Raleway', sans-serif;
 	font-size: 24px;
 	font-weight: 700;
-	color: rgb(88, 76, 5);
+	color: rgb(243, 209, 18);
 	text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
-	color: rgb(64, 73, 9);
+	color: rgb(205, 235, 14);
 	font-size: 15px;
 	font-weight: 400;
 	padding: 8px 2px;
@@ -141,7 +141,7 @@ hr {
 .section-title h2::after {
 	position: absolute;
 	content: "";
-	background: linear-gradient(to right, #b96c99 0%, #53103d 100%);
+	background: linear-gradient(to right, #b31c85 0%, #53103d 100%);
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -155,8 +155,8 @@ hr {
 	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	color: rgb(185, 55, 55);
-	background-color: #8f2556;
-	background-image: linear-gradient(to right, #884265 0%, #58113b 100%);
+	background-color: #310f24;
+	background-image: linear-gradient(to right, #a8afb4 0%, #315811 100%);
 	padding: 14px 34px;
 	letter-spacing: 1px;
 	margin: 0;
@@ -186,8 +186,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../assets/images/sembg.jpg) center center no-repeat;
-	background-color: #642525;
+	
+	background-color: #8f1985d0;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -199,7 +199,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro h1 {
 	font-family: 'Raleway', sans-serif;
 	color: rgb(123, 201, 34);
-	font-size: 82px;
+	font-size: 72px;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-top: 0;
@@ -225,7 +225,7 @@ header .intro-text {
 /* Features Section */
 #features {
 	padding: 100px 0;
-	background: #c44c7e;
+	background: #830d79;
 }
 #features i.fa {
 	font-size: 38px;
@@ -236,8 +236,8 @@ header .intro-text {
 	height: 100px;
 	padding: 30px 0;
 	border-radius: 50%;
-	background: linear-gradient(to right, #c571ac 0%, #b91f98 100%);
-	box-shadow: 10px 10px 10px rgba(56, 45, 45, 0.05);
+	background: linear-gradient(to right, #c571ac 0%, #814274 100%);
+	box-shadow: 10px 10px 10px rgba(64, 138, 21, 0.05);
 }
 /* About Section */
 #about {
@@ -255,7 +255,7 @@ header .intro-text {
 #about h2::after {
 	position: absolute;
 	content: "";
-	background: linear-gradient(to right, #da77a8 0%, #b91f98 100%);
+	background: linear-gradient(to right, #da77a8 0%, #b12793 100%);
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -289,19 +289,19 @@ header .intro-text {
 /* Services Section */
 #services {
 	padding: 100px 0;
-	background: linear-gradient(to right, #bd538d 0%, #fb5cac 100%);
+	background: linear-gradient(to right, #bd538d 0%, #710e7e 100%);
 	color: #fff;
 }
 #services .service-desc {
 	margin: 10px 10px 20px;
 }
 #services h2 {
-	color: rgb(109, 148, 37);
+	color: rgb(212, 226, 9);
 }
 #services .section-title h2::after {
 	position: absolute;
 	content: "";
-	background: rgba(255,255,255,.3);
+	background: rgba(245, 190, 9, 0.3);
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -321,10 +321,10 @@ header .intro-text {
 #services h3 {
 	font-weight: 500;
 	padding: 5px 0;
-	color: rgb(76, 87, 28);
+	color: rgb(236, 187, 26);
 }
 #services p {
-	color: rgba(102, 116, 51, 0.75);
+	color: rgba(250, 214, 12, 0.75);
 }
 #services .service-desc {
 	margin-bottom: 40px;
@@ -377,10 +377,10 @@ header .intro-text {
 /* Testimonials Section */
 #testimonials {
 	padding: 100px 0;
-	background: #b94576;
+	background: transparent;
 }
 #testimonials i {
-	color: #489959;
+	color: #d81bb8;
 	font-size: 32px;
 	margin-bottom: 20px;
 }
@@ -411,7 +411,7 @@ header .intro-text {
 	margin-top: 10px;
 	font-size: 15px;
 	font-weight: 600;
-	color: #666;
+	color: rgb(134, 185, 14);
 }
 /* Team Section */
 #team {
@@ -429,13 +429,13 @@ header .intro-text {
 }
 #team .thumbnail .caption {
 	padding: 10px 0 0 0;
-	color: #888;
+	color: rgb(174, 231, 17);
 }
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px 0;
-	background: linear-gradient(to right, #c54f90 0%, #8b1a66 100%);
-	color: rgba(36, 83, 61, 0.75);
+	background: transparent;
+	color: rgba(243, 208, 12, 0.75);
 }
 #contact .section-title {
 	margin-bottom: 40px;
@@ -559,18 +559,18 @@ color: #777;
 }
 /* Footer Section*/
 #footer {
-	background: #f6f6f6;
+	background: #c54f90;
 	padding: 30px 0;
 }
 #footer p {
-	color: #888;
+	color: rgb(142, 219, 19);
 	font-size: 14px;
 }
 #footer a {
-	color: #608dfd;
+	color: #dbfd60;
 }
 #footer a:hover {
-	border-bottom: 2px solid #608dfd;
+	border-bottom: 2px solid #b9fd60;
 }
 
 @media (max-width: 768px) {

@@ -44,9 +44,7 @@ const App = props => {
       <AdminToolbar />
       <Switch>
         <Route exact path="/" render={() => (
-          <HomepageLayout>
             <Homepage />
-          </HomepageLayout>
         )}
         />
         <Route exact path="/search" render={() => (
