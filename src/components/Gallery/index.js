@@ -15,103 +15,23 @@ export const Gallery = (props) => {
                   <div className='hover-bg'>
                     {' '}
                     <a
-                      href='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078812/sem-barbecue-spice_fkzbmu.jpg'
-                      title='Project Title'
-                      data-lightbox-gallery='gallery1'
-                    >
-                      <div className='hover-text'>
-                        <h4>Banga Soup Spice</h4>
-                        <p>this is a great banga soup spice</p>
-                      </div>
-                      <img
-                        src='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078797/sem-bangasoup-spice_mo3wph.jpg'
-                        className='img-responsive'
-                        alt='Project Title'
-                      />{' '}
-                    </a>{' '}
-                  </div>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-4'>
-                <div className='portfolio-item'>
-                  <div className='hover-bg'>
-                    {' '}
-                    <a
-                      href='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078953/sem-soursop-spice_zyovzr.jpg'
-                      title='Project Title'
-                      data-lightbox-gallery='gallery1'
-                    >
-                      <div className='hover-text'>
-                        <h4>Sour Sop Spice</h4>
-                      </div>
-                      <img
-                        src='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078812/sem-barbecue-spice_fkzbmu.jpg'
-                        className='img-responsive'
-                        alt='Project Title'
-                      />{' '}
-                    </a>{' '}
-                  </div>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-4'>
-                <div className='portfolio-item'>
-                  <div className='hover-bg'>
-                    {' '}
-                    <a
-                      href='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078843/sem-chicken-seasoning_t6e2sc.jpg'
-                      title='Project Title'
-                      data-lightbox-gallery='gallery1'
-                    >
-                      <div className='hover-text'>
-                        <h4>Calming Tea</h4>
-                      </div>
-                      <img
-                        src='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078826/sem-calming-tea_ioig4h.jpg'
-                        className='img-responsive'
-                        alt='Project Title'
-                      />{' '}
-                    </a>{' '}
-                  </div>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-4'>
-                <div className='portfolio-item'>
-                  <div className='hover-bg'>
-                    {' '}
-                    <a
-                      href='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078843/sem-chicken-seasoning_t6e2sc.jpg'
-                      title='Project Title'
-                      data-lightbox-gallery='gallery1'
-                    >
-                      <div className='hover-text'>
-                        <h4>Chicken Seasoning</h4>
-                      </div>
-                      <img
-                        src='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078843/sem-chicken-seasoning_t6e2sc.jpg'
-                        className='img-responsive'
-                        alt='Project Title'
-                      />{' '}
-                    </a>{' '}
-                  </div>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-4'>
-                <div className='portfolio-item'>
-                  <div className='hover-bg'>
-                    {' '}
-                    <a
                       href='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078856/sem-garlic-pepper_kfrdxb.jpg'
-                      title='Project Title'
+                      title='garlic pepper'
                       data-lightbox-gallery='gallery1'
                     >
                       <div className='hover-text'>
-                        <h4>Garlic Pepper</h4>
-                        <p>Sem Garlic Pepper, it's a combination of garlic and mixed chilli powder,it is good for cold, rich in vitamins, help fight infections cos of it's antifungal and anti bacteria properties. Can be used to cook your meat, soup,stew or any form of rice.i call it spicy Garlic</p>
+                        <h4>Sem Garlic Pepper</h4>
+                        <p>Sem Garlic Pepper, it's a combination of garlic and mixed 
+                          chilli powder,it is good for cold, rich in vitamins, help fight 
+                          infections cos of it's antifungal and anti bacteria properties. 
+                          Can be used to cook your meat, 
+                          soup,stew or any form of rice.i call it spicy Garlic
+                          </p>
                       </div>
                       <img
                         src='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078856/sem-garlic-pepper_kfrdxb.jpg'
                         className='img-responsive'
-                        alt='Project Title'
+                        alt='garlic pepper'
                       />{' '}
                     </a>{' '}
                   </div>
@@ -122,28 +42,22 @@ export const Gallery = (props) => {
                   <div className='hover-bg'>
                     {' '}
                     <a
-                      href='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078867/sem-garlicandginger-mix_wteg4n.jpg'
-                      title='Project Title'
+                      href='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078812/sem-barbecue-spice_fkzbmu.jpg'
+                      title='barbeque spice'
                       data-lightbox-gallery='gallery1'
                     >
                       <div className='hover-text'>
-                        <h4>Garlic and Ginger Mix</h4>
-                        <p>Ginger (zingiber officinale) is among The healthiest (and most delicious) spices in the world.
-It belongs to the family zingiberaceae and is closely related to tumeric, cardamon and galangal
-The rhizomes (underground part of the stem) is the part commonly used as a spice.it is often called ginger root or simply ginger.
-The oleoresin from the rhizomes (roots) of ginger contains many bioactive components such as gingerol which is the primary pungent ingredient that is believed to exert a variety of remarkable pharmacological and physiological activities.
-ginger can be used fresh, dried, powdered or as an oil or juice and is sometimes added to processed food and cosmetics.
-In foods and beverages ginger is used as a flavouring agent
-In manufacturing ginger is used  as fragrance in soap and cosmetics
-one of the chemicals in ginger is also used as an ingredient in laxatives anti-gas and antacids medications
-
-
-                          </p>
+                        <h4>Sem Barbeque</h4>
+                        <p>
+                        Prepare your chicken, beef or fish barbeque (suya) this festive season with SEM barbeque spice, 
+                        for that delicious taste. Made from a blend of 10 herbs and roots, with amazing health benefits
+                        Sem spices makes your food taste better, while helping you prevent, manage or cure certain health conditions
+                        </p>
                       </div>
                       <img
-                        src='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078867/sem-garlicandginger-mix_wteg4n.jpg'
+                        src='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078812/sem-barbecue-spice_fkzbmu.jpg'
                         className='img-responsive'
-                        alt='Project Title'
+                        alt='barbeque spice'
                       />{' '}
                     </a>{' '}
                   </div>
@@ -154,50 +68,20 @@ one of the chemicals in ginger is also used as an ingredient in laxatives anti-g
                   <div className='hover-bg'>
                     {' '}
                     <a
-                      href='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078901/sem-mixedchilli-powder_oenah6.jpg'
-                      title='Project Title'
+                      href='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078843/sem-chicken-seasoning_t6e2sc.jpg'
+                      title='chicken seasoning'
                       data-lightbox-gallery='gallery1'
                     >
                       <div className='hover-text'>
-                        <h4>Mixed Chilli Powder</h4>
-                        <p>Piper Guineense is traditionally known as UZIZA among the Igbo tone, IYERE among the Yoruba tribe, ETINKENE among 
-                          the Efik &ibibio tribe and  EBE-AHINHI AKPOKE among the Edo tribe.
-                         It can be used to season your chicken, Cook any soup or stew or even taken as tea.
-                         It has amazing health benefits, and can be used in the treatment of the following
-                        ∆•* stomach ache
-                        ∆•* leprosy
-                        ∆•* infertility in women and low sperm count in men
-                        ∆•* convulsion
-                        ∆•* cough
-                        ∆•* loss of appetite
-                        ∆•* intestinal disorder like diarrhoea dysentery, indigestion, flatulence and cholera amongst others
-                        The taste and aroma in food is an experience to Have</p>
+                        <h4>Sem Chicken Seasoning</h4>
+                        <p>
+                        Sem chicken seasoning, Made up of 13 herbs and root, which does amazing things like regulate blood, sugar, pressure, cholesterol etc while making your meat taste delicious
+                        </p>
                       </div>
                       <img
-                        src='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078901/sem-mixedchilli-powder_oenah6.jpg'
+                        src='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078843/sem-chicken-seasoning_t6e2sc.jpg'
                         className='img-responsive'
-                        alt='Project Title'
-                      />{' '}
-                    </a>{' '}
-                  </div>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-4'>
-                <div className='portfolio-item'>
-                  <div className='hover-bg'>
-                    {' '}
-                    <a
-                      href='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078913/sem-peppersoup-spice_wh2doz.jpg'
-                      title='Project Title'
-                      data-lightbox-gallery='gallery1'
-                    >
-                      <div className='hover-text'>
-                        <h4>Peppersoup Spice</h4>
-                      </div>
-                      <img
-                        src='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078913/sem-peppersoup-spice_wh2doz.jpg'
-                        className='img-responsive'
-                        alt='Project Title'
+                        alt='chicken seasoning'
                       />{' '}
                     </a>{' '}
                   </div>
@@ -209,12 +93,13 @@ one of the chemicals in ginger is also used as an ingredient in laxatives anti-g
                     {' '}
                     <a
                       href='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078938/sem-soup-spice_vcrrja.jpg'
-                      title='Project Title'
+                      title='soup spice'
                       data-lightbox-gallery='gallery1'
                     >
                       <div className='hover-text'>
-                        <h4>Soup Spice</h4>
-                        <p>Sem soup spice. Combination of seafood and herbs, roots
+                        <h4>Sem Soup Spice</h4>
+                        <p>
+                        Sem soup spice. Combination of seafood and herbs, roots
                            and locust been, to make your soup have a unique taste,
                            while helping you prevent goiter and other diseases
                         </p>
@@ -222,7 +107,133 @@ one of the chemicals in ginger is also used as an ingredient in laxatives anti-g
                       <img
                         src='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078938/sem-soup-spice_vcrrja.jpg'
                         className='img-responsive'
-                        alt='Project Title'
+                        alt='soup spice'
+                      />{' '}
+                    </a>{' '}
+                  </div>
+                </div>
+              </div>
+              <div className='col-sm-6 col-md-4 col-lg-4'>
+                <div className='portfolio-item'>
+                  <div className='hover-bg'>
+                    {' '}
+                    <a
+                      href='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078927/sem-seasoned-salt_mnidn3.jpg'
+                      title='seasoned salt'
+                      data-lightbox-gallery='gallery1'
+                    >
+                      <div className='hover-text'>
+                        <h4>Sem seasoned Salt</h4>
+                        <p>
+                        Sem seasoning salt is your healthier alternative to seasoning cubes, I call it the fortified salt, it is a combination of 11 ingredients, it contains herbs and roots, that helps reduce blood sugar, blood pressure, cholesterol etc
+                        </p>
+                      </div>
+                      <img
+                        src='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078927/sem-seasoned-salt_mnidn3.jpg'
+                        className='img-responsive'
+                        alt='seasoned salt'
+                      />{' '}
+                    </a>{' '}
+                  </div>
+                </div>
+              </div>
+              <div className='col-sm-6 col-md-4 col-lg-4'>
+                <div className='portfolio-item'>
+                  <div className='hover-bg'>
+                    {' '}
+                    <a
+                      href='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078953/sem-soursop-spice_zyovzr.jpg'
+                      title='soursop spice'
+                      data-lightbox-gallery='gallery1'
+                    >
+                      <div className='hover-text'>
+                        <h4>Sem Soursop Spice</h4>
+                        <p>
+                        soursop leaf powder is a must have for every home, as it's benefits are numerous. The most important uses in traditional medicine, scientifically validated in pre-clinical tests are*
+                        ✓ for inflammation
+                        ✓pain
+                        ✓infections
+                        ✓diabetes
+                        ✓ cancer.
+
+                        </p>
+                      </div>
+                      <img
+                        src='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078953/sem-soursop-spice_zyovzr.jpg'
+                        className='img-responsive'
+                        alt='soursop spice'
+                      />{' '}
+                    </a>{' '}
+                  </div>
+                </div>
+              </div>
+              <div className='col-sm-6 col-md-4 col-lg-4'>
+                <div className='portfolio-item'>
+                  <div className='hover-bg'>
+                    {' '}
+                    <a
+                      href='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078901/sem-mixedchilli-powder_oenah6.jpg'
+                      title='mixed chilli powder'
+                      data-lightbox-gallery='gallery1'
+                    >
+                      <div className='hover-text'>
+                        <h4>Mixed Chilli Powder</h4>
+                        <p>
+                        A combination of different kinds of Pepper,good for common cold, arthritis, and rich in vitamins
+                        </p>
+                      </div>
+                      <img
+                        src='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078901/sem-mixedchilli-powder_oenah6.jpg'
+                        className='img-responsive'
+                        alt='mixed chilli powder'
+                      />{' '}
+                    </a>{' '}
+                  </div>
+                </div>
+              </div>
+              <div className='col-sm-6 col-md-4 col-lg-4'>
+                <div className='portfolio-item'>
+                  <div className='hover-bg'>
+                    {' '}
+                    <a
+                      href='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078913/sem-peppersoup-spice_wh2doz.jpg'
+                      title='peppersoup spice'
+                      data-lightbox-gallery='gallery1'
+                    >
+                      <div className='hover-text'>
+                        <h4>Peppersoup Spice</h4>
+                        <p>
+                        Sem peppersoup spice is second to none, it is a complete herbal mix perfect for the cold weather
+                        </p>
+                      </div>
+                      <img
+                        src='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078913/sem-peppersoup-spice_wh2doz.jpg'
+                        className='img-responsive'
+                        alt='peppersoup spice'
+                      />{' '}
+                    </a>{' '}
+                  </div>
+                </div>
+              </div>
+              <div className='col-sm-6 col-md-4 col-lg-4'>
+                <div className='portfolio-item'>
+                  <div className='hover-bg'>
+                    {' '}
+                    <a
+                      href='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078826/sem-calming-tea_ioig4h.jpg'
+                      title='calming tea'
+                      data-lightbox-gallery='gallery1'
+                    >
+                      <div className='hover-text'>
+                        <h4>Sem Calming Tea</h4>
+                        <p>
+                        SEM Flu tea is an amazing immune booster tea, the reviews have been mind blowing, a must have in this pandemic, it builds your immune system, helps decongest your nasal cavity, sinuses, etc made from a combination of herbs, roots and fruits, like soursop leaf, ginger, lemon and more.
+                        </p>
+                      </div>
+                      <img
+                        src='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078826/sem-calming-tea_ioig4h.jpg'
+                        className='img-responsive'
+                        alt='calming tea'
                       />{' '}
                     </a>{' '}
                   </div>

@@ -47,61 +47,61 @@
         },
         {
             "icon": "fa fa-tree",
-            "name": "Farm",
-            "text": "With our partners farm produce can be sourced through us."
+            "name": "Date (Dabino) Powder",
+            "text": "we have varietes of date powders which are good for consumption."
         }
 
 
     ],
     "Testimonials": [{
             "img": "https://res.cloudinary.com/chimeziesolomon/image/upload/v1617569998/chefimage_h3s27t.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "text": "\"I bought Sem spices (jollof, Bbq, spiced crayfish). Omo!!! that crayfish was among the best. It has pepper and some extra stuff that I can't predict. I am in love.\"",
             "name": "Ella Doe"
         },
         {
-            "img": "https://res.cloudinary.com/chimeziesolomon/image/upload/v1617569998/chefimage_h3s27t.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "img": "https://res.cloudinary.com/chimeziesolomon/image/upload/v1617569991/chef_zhehms.jpg",
+            "text": "\" The color and aroma from the jollof spice is superb. I tried it when I had visitors and it was very good. I equally used the bbq spice to make my egg sauce and trust me the taste was so nice.\"",
             "name": "Johnathan Mills"
         },
         {
-            "img": "https://res.cloudinary.com/chimeziesolomon/image/upload/v1617569998/chefimage_h3s27t.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "img": "https://res.cloudinary.com/chimeziesolomon/image/upload/v1617569975/our_chef_tk5jak.jpg",
+            "text": "\"Good afternoon sis, I tried out your seasoned salt today to prepare egg for my family. To my satisfaction, it came out tasty just the way I love it. I used to make it using table salt, msg, white papper and curry powder.\"",
             "name": "John Edollo"
         },
         {
-            "img": "https://res.cloudinary.com/chimeziesolomon/image/upload/v1617569998/chefimage_h3s27t.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "img": "https://res.cloudinary.com/chimeziesolomon/image/upload/v1621274788/446703901_8338_xddkly.jpg",
+            "text": "\"Mama, sorry I'm just responding. The soup spice is very good. I used it while preparing egusi soup, made a whole lot of sense. I added the cinnamon and garlic/ginger mix to my boiling water for tea and it's the bomb.\"",
             "name": "Steven Mandy"
         },
         {
-            "img": "https://res.cloudinary.com/chimeziesolomon/image/upload/v1617569998/chefimage_h3s27t.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Fred Wilson"
+            "img": "https://res.cloudinary.com/chimeziesolomon/image/upload/v1621274872/8350_nj0kku.jpg",
+            "text": "\"Hey sis, the spices are giving my soup a different and delicious taste. I love the jollof spice, I used it to make jollof on sunday , it was finger licking. I also love the mixed pepper, I used for ogbono .. Omg the taste was so nice.\"",
+            "name": "Fred Estell"
         },
         {
-            "img": "https://res.cloudinary.com/chimeziesolomon/image/upload/v1617569998/chefimage_h3s27t.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Stan Fred"
+            "img": "https://res.cloudinary.com/chimeziesolomon/image/upload/v1621274896/6619a0d6de22ec9595b2963fe11b381f_mc6k3n.jpg",
+            "text": "\"Good evening ma'am! I have used and I am still using the seasoning salt. Matter of fact I 've finally stopped using maggi and also introduced it to my mom this last Christmas and she was so impressed.\"",
+            "name": "Stan Rose"
         }
     ],
     "Team": [{
-            "img": "https://res.cloudinary.com/chimeziesolomon/image/upload/v1617569998/chefimage_h3s27t.jpg",
-            "name": "John Doe",
-            "job": "Director"
+            "img": "https://res.cloudinary.com/chimeziesolomon/image/upload/v1621185904/sembusinessmind_lgqrgm.png",
+            "name": "",
+            "job": ""
         },
         {
-            "img": "https://res.cloudinary.com/chimeziesolomon/image/upload/v1617569998/chefimage_h3s27t.jpg",
-            "name": "Mike Stewart",
-            "job": "Tester"
+            "img": "https://res.cloudinary.com/chimeziesolomon/image/upload/v1621185920/semforcado_x46h8d.png",
+            "name": "",
+            "job": ""
         }, {
-            "img": "https://res.cloudinary.com/chimeziesolomon/image/upload/v1617569998/chefimage_h3s27t.jpg",
-            "name": "Jane Philip",
-            "job": "Executive Chef"
+            "img": "https://res.cloudinary.com/chimeziesolomon/image/upload/v1621185963/semsassy_cqght8.png",
+            "name": "",
+            "job": ""
         },
         {
-            "img": "https://res.cloudinary.com/chimeziesolomon/image/upload/v1617569998/chefimage_h3s27t.jpg",
-            "name": "Karen Mica",
-            "job": "Accountant"
+            "img": "https://res.cloudinary.com/chimeziesolomon/image/upload/v1621185940/sempurpleoven_vcsgdd.png",
+            "name": "",
+            "job": ""
         }
     ],
     "Contact": {
