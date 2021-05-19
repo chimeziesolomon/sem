@@ -1,3 +1,12 @@
+import semGarlicPepper from '../../assets/images/sem-garlic-pepper2.jpeg';
+import semBarbecueSpice from '../../assets/images/sem-barbecue-spice2.jpeg';
+import semChickenSeasoning from '../../assets/images/sem-chicken-seasoning2.jpeg';
+import semSoupSpice from '../../assets/images/sem-soup-spice2.jpeg';
+import semSeasonedSault from '../../assets/images/sem-seasoned-salt2.jpeg';
+import semSoursopSpice from '../../assets/images/sem-soursop-spice2.jpeg';
+import semMixedChilliPowder from '../../assets/images/sem-mixedchilli-powder2.jpeg';
+import semPepperSoupSpice from '../../assets/images/sem-peppersoup-spice2.jpeg';
+import semCalmingTea from '../../assets/images/sem-calming-tea2.jpeg';
 export const Gallery = (props) => {
     return (
       <div id='portfolio' className='text-center'>
@@ -9,7 +18,7 @@ export const Gallery = (props) => {
             </p>
           </div>
           <div className='row'>
-            <div className='portfolio-items row'>
+            <div className='portfolio-items'>
               <div className='col-sm-6 col-md-4 col-lg-4'>
                 <div className='portfolio-item'>
                   <div className='hover-bg'>
@@ -29,8 +38,8 @@ export const Gallery = (props) => {
                           </p>
                       </div>
                       <img
-                        src='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078856/sem-garlic-pepper_kfrdxb.jpg'
-                        className='img-responsive'
+                        src={semGarlicPepper}
+                        className='img-fluid img-thumbnail'
                         alt='garlic pepper'
                       />{' '}
                     </a>{' '}
@@ -55,8 +64,8 @@ export const Gallery = (props) => {
                         </p>
                       </div>
                       <img
-                        src='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078812/sem-barbecue-spice_fkzbmu.jpg'
-                        className='img-responsive'
+                        src={semBarbecueSpice}
+                        className='img-fluid img-thumbnail'
                         alt='barbeque spice'
                       />{' '}
                     </a>{' '}
@@ -79,8 +88,8 @@ export const Gallery = (props) => {
                         </p>
                       </div>
                       <img
-                        src='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078843/sem-chicken-seasoning_t6e2sc.jpg'
-                        className='img-responsive'
+                        src={semChickenSeasoning}
+                        className='img-fluid img-thumbnail'
                         alt='chicken seasoning'
                       />{' '}
                     </a>{' '}
@@ -105,8 +114,8 @@ export const Gallery = (props) => {
                         </p>
                       </div>
                       <img
-                        src='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078938/sem-soup-spice_vcrrja.jpg'
-                        className='img-responsive'
+                        src={semSoupSpice}
+                        className='img-fluid img-thumbnail'
                         alt='soup spice'
                       />{' '}
                     </a>{' '}
@@ -129,8 +138,8 @@ export const Gallery = (props) => {
                         </p>
                       </div>
                       <img
-                        src='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078927/sem-seasoned-salt_mnidn3.jpg'
-                        className='img-responsive'
+                        src={semSeasonedSault}
+                        className='img-fluid img-thumbnail'
                         alt='seasoned salt'
                       />{' '}
                     </a>{' '}
@@ -159,8 +168,8 @@ export const Gallery = (props) => {
                         </p>
                       </div>
                       <img
-                        src='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078953/sem-soursop-spice_zyovzr.jpg'
-                        className='img-responsive'
+                        src={semSoursopSpice}
+                        className='img-fluid img-thumbnail'
                         alt='soursop spice'
                       />{' '}
                     </a>{' '}
@@ -183,8 +192,8 @@ export const Gallery = (props) => {
                         </p>
                       </div>
                       <img
-                        src='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078901/sem-mixedchilli-powder_oenah6.jpg'
-                        className='img-responsive'
+                        src={semMixedChilliPowder}
+                        className='img-fluid img-thumbnail'
                         alt='mixed chilli powder'
                       />{' '}
                     </a>{' '}
@@ -207,8 +216,8 @@ export const Gallery = (props) => {
                         </p>
                       </div>
                       <img
-                        src='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078913/sem-peppersoup-spice_wh2doz.jpg'
-                        className='img-responsive'
+                        src={semPepperSoupSpice}
+                        className='img-fluid img-thumbnail'
                         alt='peppersoup spice'
                       />{' '}
                     </a>{' '}
@@ -231,8 +240,8 @@ export const Gallery = (props) => {
                         </p>
                       </div>
                       <img
-                        src='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078826/sem-calming-tea_ioig4h.jpg'
-                        className='img-responsive'
+                        src={semCalmingTea}
+                        className='img-fluid img-thumbnail'
                         alt='calming tea'
                       />{' '}
                     </a>{' '}

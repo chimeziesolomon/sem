@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { checkUserSession } from './redux/User/user.actions';
+import 'bootstrap/dist/js/bootstrap.js';
 
 // components
 import AdminToolbar from './components/AdminToolbar';
