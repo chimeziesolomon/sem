@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useHistory, Link } from 'react-router-dom';
 import { signUpUserStart } from './../../redux/User/user.actions';
-//import './styles.scss';
+import './styles.scss';
 
 import AuthWrapper from './../AuthWrap';
 import FormInput from './../Forms/FormInput';

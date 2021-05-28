@@ -47,11 +47,27 @@ const ProductResults = ({ }) => {
       name: 'Show all',
       value: ''
     }, {
-      name: 'Mens',
-      value: 'mens'
+      name: 'Spices',
+      value: 'Spices'
+    },
+    {
+      name: 'Granular',
+      value: 'Granular'
+    },
+    {
+      name: 'Teas',
+      value: 'Teas'
+    },
+    {
+      name: 'Msg-Free-Catering(Training)',
+      value: 'Msg-Free-Catering(Training)'
+    },
+    {
+      name: 'Date (Dabino) Powder',
+      value: 'Date (Dabino) Powder'
     }, {
-      name: 'Womens',
-      value: 'womens'
+      name: 'Msg-Free-Catering(Food)',
+      value: 'Msg-Free-Catering(Food)'
     }],
     handleChange: handleFilter
   };

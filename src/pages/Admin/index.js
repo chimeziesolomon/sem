@@ -17,7 +17,7 @@ const Admin = props => {
   const { products } = useSelector(mapState);
   const dispatch = useDispatch();
   const [hideModal, setHideModal] = useState(true);
-  const [productCategory, setProductCategory] = useState('mens');
+  const [productCategory, setProductCategory] = useState('spices');
   const [productName, setProductName] = useState('');
   const [productThumbnail, setProductThumbnail] = useState('');
   const [productPrice, setProductPrice] = useState(0);
@@ -40,7 +40,7 @@ const Admin = props => {
 
   const resetForm = () => {
     setHideModal(true);
-    setProductCategory('mens');
+    setProductCategory('spices');
     setProductName('');
     setProductThumbnail('');
     setProductPrice(0);
@@ -100,11 +100,27 @@ const Admin = props => {
             <FormSelect
               label="Category"
               options={[{
-                value: "mens",
-                name: "Mens"
-              }, {
-                value: "womens",
-                name: "Womens"
+                value: "spices",
+                name: "spices"
+              }, 
+              {
+                value: "Granular",
+                name: "Granular"
+              },
+              {
+                value: "Teas",
+                name: "Teas"
+              },
+              {
+                value: "Msg-Free-Catering(Training)",
+                name: "Msg-Free-Catering(Training)"
+              },
+              {
+                value: "Date (Dabino) Powder",
+                name: "Date (Dabino) Powder"
+              },{
+                value: "Msg-Free-Catering(Food)",
+                name: "Msg-Free-Catering(Food)"
               }]}
               handleChange={e => setProductCategory(e.target.value)}
             />
@@ -179,7 +195,7 @@ const Admin = props => {
                             {productName}
                           </td>
                           <td>
-                            £{productPrice}
+                            #{productPrice}
                           </td>
                           <td>
                             <Button onClick={() => dispatch(deleteProductStart(documentID))}>
