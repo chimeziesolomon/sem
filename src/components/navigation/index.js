@@ -78,7 +78,6 @@ export const Navigation = (props) => {
               <li>
                 <a to="/search"
                 href='#search' className=''>
-                  
                 </a>
               </li>
             </ul>
