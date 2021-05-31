@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Navigation } from '../../components/navigation';
+import { Navigation } from '../../components/Navigation';
 import { Header } from '../../components/Header';
 import { Features } from '../../components/features';
 import { About } from '../../components/about';
