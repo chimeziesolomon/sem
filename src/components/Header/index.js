@@ -4,7 +4,7 @@
 //import { signOutUserStart } from '../../redux/User/user.actions';
 //import { selectCartItemsCount } from '../../redux/Cart/cart.selectors';
 //import Logo from '../../assets/images/sem-logo.jpeg';
-import Navigation from './../../components/Navigation';
+import { NavigationMenu } from '../navigation';
 
 
 export const Header = (props) => {
@@ -12,7 +12,7 @@ export const Header = (props) => {
   
   return (
     <header id="header">
-      <Navigation />
+      <NavigationMenu />
       <div className="intro">
         <div className="overlay">
           <div className="container">
@@ -39,7 +39,7 @@ export const Header = (props) => {
   );
 };
 
-Navigation.defaultProps = {
+NavigationMenu.defaultProps = {
   currentUser: null
 };
 
