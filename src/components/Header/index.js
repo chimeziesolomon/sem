@@ -1,15 +1,8 @@
-//import React, { useState, useEffect } from 'react';
-//import { Link, useLocation  } from 'react-router-dom';
-//import { useSelector, useDispatch } from 'react-redux';
-//import { signOutUserStart } from '../../redux/User/user.actions';
-//import { selectCartItemsCount } from '../../redux/Cart/cart.selectors';
-//import Logo from '../../assets/images/sem-logo.jpeg';
+
 import { NavigationMenu } from '../navigation';
 
 
 export const Header = (props) => {
-  
-  
   return (
     <header id="header">
       <NavigationMenu />
@@ -33,8 +26,6 @@ export const Header = (props) => {
           </div>
         </div>
       </div>
-     
-
     </header>
   );
 };

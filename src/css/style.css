@@ -224,11 +224,11 @@ header .intro-text {
 	text-align: center;
 }
 /* Features Section */
-#features {
+#home {
 	padding: 100px 0;
 	background: #830d79;
 }
-#features i.fa {
+#home i.fa {
 	font-size: 38px;
 	margin-bottom: 20px;
 	transition: all 0.5s;
