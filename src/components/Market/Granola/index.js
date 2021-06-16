@@ -1,23 +1,19 @@
-
 //import semCalmingTea from '../../assets/images/sem-calming-tea2.jpeg';
-export const Gallery = (props) => {
-    return (
-      <div id='portfolio' className='text-center'>
-        <div className='container'>
-          <div className='section-title'>
-            <h2>Granola</h2>
-            <p>
-              Granola here.
-            </p>
-          </div>
-          <div className='row'>
-            <div className='portfolio-items'>
-              <div className='col-sm-6 col-md-4 col-lg-4'>
-                <div className='portfolio-item'>
-                  <div className='hover-bg'>
-                    {' '}
-                    
-                    {/*<a
+const Granola = (props) => {
+  return (
+    <div id="portfolio" className="text-center">
+      <div className="container">
+        <div className="section-title">
+          <h2>Granola</h2>
+          <p>Granola here.</p>
+        </div>
+        <div className="row">
+          <div className="portfolio-items">
+            <div className="col-sm-6 col-md-4 col-lg-4">
+              <div className="portfolio-item">
+                <div className="hover-bg">
+                  {' '}
+                  {/*<a
                       href='https://res.cloudinary.com/chimeziesolomon/image/upload/v1620078826/sem-calming-tea_ioig4h.jpg'
                       title='calming tea'
                       data-lightbox-gallery='gallery1'
@@ -33,15 +29,16 @@ export const Gallery = (props) => {
                         className='img-fluid img-thumbnail'
                         alt='calming tea'
                       />{' '}
-                    </a>*/}Coming soon
-                    {' '}
-                  </div>
+                    </a>*/}
+                  Coming soon{' '}
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    )
-  }
-  
+    </div>
+  );
+};
+
+export default Granola;
